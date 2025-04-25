@@ -1,5 +1,6 @@
 [build]
 builder = "nixpacks"
+providers = ["nodejs"]
 buildCommand = "npm install --production=false"
 
 [deploy]
