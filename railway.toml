@@ -9,5 +9,5 @@ healthcheckTimeout = 100
 restartPolicyType = "on_failure"
 restartPolicyMaxRetries = 3
 
-[deploy.env]
+[variables]
 NODE_ENV = "production" 
