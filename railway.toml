@@ -1,6 +1,7 @@
 [build]
-builder = "dockerfile"
-# No buildCommand needed when using Dockerfile
+builder = "nixpacks"
+providers = ["nodejs"]
+buildCommand = "npm install --production=false"
 
 [deploy]
 startCommand = "node server.js"
